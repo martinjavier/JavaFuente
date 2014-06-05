@@ -96,6 +96,7 @@ public class Fecha
         diasToFecha(sum);
     }
     
+    //Compara igualdad de dos fechas
         public boolean equals(Object o)
     {
         Fecha otra = (Fecha)o;
