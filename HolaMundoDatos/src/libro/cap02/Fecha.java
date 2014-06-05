@@ -96,4 +96,10 @@ public class Fecha
         diasToFecha(sum);
     }
     
+        public boolean equals(Object o)
+    {
+        Fecha otra = (Fecha)o;
+        return (dia==otra.dia) && (mes==otra.mes) && (anio==otra.anio);                
+    }
+        
     }
